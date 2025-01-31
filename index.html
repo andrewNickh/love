@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recel ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💖 I Love You, Recel 💖</h1>
+        <button onclick="showMessage()">Click for a Surprise! 🎁</button>
+        <p id="hidden-message" class="hidden">💌 You got Icikiwir! 💌</p>
+    </div>
+
+    <div class="hearts"></div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("hidden-message").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
